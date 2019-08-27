@@ -1,0 +1,186 @@
+
+
+body{margin: 0;
+font-family: sans-serif;
+}
+/*Navigation*/
+
+nav{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin:20px;
+    color: #0fa5c4;
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+}
+
+ul {
+    display: flex;
+        justify-content: space-between;
+        max-width: 500px;
+        width: 100%;
+        padding: 15px;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  li a{
+      text-decoration: none;
+      color:white;
+      background-color: #ed1e4b;
+      font-weight: bold;
+      border: 30px;
+      border-radius:25px;
+  }
+
+  li a#signUp{
+      color: white;
+      background-color: #0fa5c4;
+  }
+
+
+.hero {
+/* Sizing */
+width: 100vw;
+height: 100vh;
+
+/* Flexbox stuff */
+display: flex;
+justify-content: center;
+align-items: center;
+
+/* Text styles */
+text-align: center;
+color: white; /* ADD THIS LINE */
+text-shadow: 2px 2px #ed1e4b;
+font-family: 'Pacifico', cursive;
+
+/* Background styles */
+background-image: url(img/table.jpg);
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-color: rgba(0,0,0.5);
+}
+
+
+
+.hero h1 {
+/* Text styles */
+font-size: 5em;
+
+/* Margins */
+margin-top: 0;
+margin-bottom: 0.5em;
+}
+
+.hero .btn {
+/* Positioning and sizing */
+display: inline-block;
+width: 200px;
+
+/* Padding and margins */
+padding: 1em;
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+
+ /* Text styles */
+color:  white;
+/* text-shadow: 2px 2px white; */
+text-decoration: none;
+font-size: 1.5em;
+
+/* Border styles */
+/*border: 3px solid white;*/
+
+
+
+/* Background styles */
+background-color: #ed1e4b;
+opacity: 0.8;
+border-radius:25px;
+
+}
+
+
+.hero .btn:hover {
+border: 1px solid white;
+}
+
+main{
+border-style: solid;
+border-color: #d17335;
+}
+
+h2{
+font-size: 2.5em;
+font-family: 'Caveat Brush', cursive;
+color:#ed1e4b;
+text-shadow: 2px 2px #fbb216;
+text-align: center;
+
+}
+
+#self{
+border-style:solid;
+border-color: #0fa5c4;
+border-radius:50%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+div.gallery {
+border: 3px solid #0fa5c4;
+border-radius: 10px;
+display: inline-block;
+width: 200px;
+
+}
+
+div.gallery:hover {
+border: 1px solid #777;
+filter: blur(8px);
+}
+
+div.gallery img {
+width: 200px;
+height: 200px;
+border-radius: 8px;
+}
+
+div.desc {
+padding: 15px;
+text-align: center;
+}
+
+p{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+#sign{
+    animation: bounceIn 10s infinite;
+}
+
+
+footer {
+    color: #22283B;
+    background: #f4f4f4;
+    padding: 20px 0;
+    border: 1px double #e0e0e0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
